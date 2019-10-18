@@ -8,12 +8,14 @@ html {
 body {
     background: #fff;
     color: #000;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Georgia', sans-serif;
     margin: 4rem; /* note, this will not work for all page layouts */
 }
 
 /*  the #container div (below) holds ONE chart  */
 #container {
+  max-width: 50em;
+  max-height: 200em;
 }
 
 p {
